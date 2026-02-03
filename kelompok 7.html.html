@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rumah Belajar - Fisika Kelas 12</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      color: #004080;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background: white;
+      margin: 10px 0;
+      padding: 15px;
+      border-left: 5px solid #004080;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    li:hover {
+      background: #e6f0ff;
+    }
+
+    .materi, .soal {
+      display: none;
+      background: #ffffff;
+      margin: 15px 0;
+      padding: 15px;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #ddd;
+      margin-top: 40px;
+    }
+
+    .sublist {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    .sublist li {
+      border-left: none;
+      box-shadow: none;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rumah Belajar</h1>
+    <p>Fisika Kelas 12</p>
+  </header>
+
+  <main>
+    <h2>Menu</h2>
+    <ul>
+      <li onclick="showSection('listrik')">Listrik Statis & Searah</li>
+      <li onclick="showSection('ac')">Arusss Bolak-Balik</li>
+      <li onclick="showSection('gelombang')">Gelombang Elektromagnetik</li>
+      <li onclick="showSection('menu-soal')">📘 Contoh Soal</li>
+    </ul>
+
+    <!-- === Penjelasan Materi === -->
+
+    <div id="listrik" class="materi">
+      <h3>Listrik Searah & Statis</h3>
+      <p>Hukum Coulomb adalah gaya listrik yang timbul antara dua muatan. Jika dua benda memiliki muatan listrik, maka keduanya akan saling tarik-menarik jika muatannya berbeda jenis (positif dan negatif), dan saling tolak-menolak jika muatannya sejenis (sama-sama positif atau sama-sama negatif). Rumusnya adalah:</p>
+      <img src="https://akcdn.detik.net.id/community/media/visual/2023/08/16/rumus-medan-listrik-2.png?w=891" width="300">
+    
+
+       <p>Medan listrik adalah daerah di sekitar muatan listrik yang masih terpengaruh gaya listrik. Misalnya, jika kita meletakkan sebuah muatan uji kecil di sekitar muatan sumber, maka muatan uji tersebut akan mengalami gaya akibat medan listrik. Rumus yang digunakan adalah:</p>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHHwHoVLCgJuu7c-RwxGV3MZ9Fva9iLL5y1Q&s" width="300">	  
+	  <p>Semakin besar muatan sumbernya, maka medan listrik yang ditimbulkan juga makin kuat. Sebaliknya, semakin jauh jarak dari muatan sumber, maka medan listrik yang dirasakan semakin lemah. Konsep medan listrik membantu kita memahami bagaimana sebuah muatan bisa mempengaruhi ruang di sekitarnya meski tidak bersentuhan langsung.</p>
+       	
+	</div>
+              
+
+    <div id="ac" class="materi">
+      <h3>Rangkaian Arus Bolak-Balik (AC)</h3>
+      <p>Arus bolak-balik atau alternating current (AC) merupakan arus dan tegangan listrik yang besarnya berubah terhadap waktu dan mengalir dalam dua arah. Arus bolak-balik biasanya dimanfaatkan untuk peralatan elektronik.
+       Pada prinsipnya, sumber arus bolak-balik bekerja melalui perputaran kumparan dengan kecepatan sudut tertentu yang berada dalam medan magnetik. Jenis-jenis rangkaian dalam rangkaian AC adalah rangkaian resistor, rangkaian induktor, dan rangkaian kapasitor..</p>
+	   <p> 1. Rangkaian Resistor </p>
+<p> Sebuah resistor akan dialiri arus bolak-balik ketika dihubungkan dengan sumber tegangan bolak-balik. Fungsi rangkaian resistor dalam arus bolak-balik ialah untuk menurunkan potensial listrik dalam rangkaian, atau sebagai pembatas arus listrik yang masuk.
+Nah jika sudah dibatasi, arus dan tegangan dalam rangkaian resistor mempunyai fase yang sama saat terhubung dengan sumber tegangan bolak-balik.</p>
+      <br> <br>
+	  <img src="https://assets.promediateknologi.id/crop/0x0:0x0/750x0/webp/photo/2022/01/05/840988679.jpg" width="300">	
+	  <p> *rangkaian resitor pada arus bolak balik* </p>
+	 <br> <br>
+	 <img src= "https://i.ibb.co.com/fdX7hq9s/Whats-App-Image-2026-01-07-at-20-36-21.jpg" width="300">
+	 <p> *grafik hubungan tegangan dan arus terhadap waktu resitor*</p>
+	 <p> Berdasarkan grafik terlihat bahwa tegangan dan arus berada pada keadaan sefase, yang artinya mencapai nilai maksimum pada saat yang sama. Sebuah resistor dihubungkan dengan sumber tegangan bolak-balik, besarnya tegangan pada resistor sama dengan tegangan sumber.</p>
+     <br> <br>
+	 
+   <br><br>
+   <img src="https://i.ibb.co.com/JJj1T2h/Whats-App-Image-2026-01-07-at-20-36-22.jpg" width="600">
+   <p>*rumus tegangan pada Resitor*           </p>
+   <br><br>
+   <p> 2. Rangkaian Induktor</p>
+   <p>Sebuah induktor mempunyai hambatan yang disebut reaktansi induktif saat dihubungkan dengan sumber tegangan bolak-balik. Hambatan atau reaktansi induktif ini bergantung pada frekuensi sudut arus, dan induktansi diri induktor. Secara singkat, dapat dirumuskan sebagai:</p>
+   <img src="https://i.ibb.co.com/BKGgBy8k/Whats-App-Image-2026-01-07-at-20-36-22-1.jpg" width="300">
+   <br> 
+   <img src="https://i.ibb.co.com/Ldj542pc/Whats-App-Image-2026-01-07-at-20-36-23-1.jpg" width="300">
+   <p>*Rangkaian induktor pada arus bolak-balik*</p>
+   <br><br>
+   <img src= "https://i.ibb.co.com/939s3s9f/Whats-App-Image-2026-01-07-at-20-36-23.jpg" width="300"> 
+	 <p> *Grafik hubungan tegangan dan arus terhadap waktu pada induktor* </p> 
+	
+	<p> Berdasarkan grafik, terlihat bahwa besar tegangan pada induktor adalah nol saat arus induktornya maksimum, begitupun sebaliknya. Artinya tegangan pada induktor mencapai nilai maksimum lebih cepat seperempat periode daripada saat arus mencapai maksimumnya. </p>
+    <br><br>
+	<img src="https://i.ibb.co.com/nHFR1XP/Whats-App-Image-2026-01-07-at-20-36-26.jpg" width="600">
+	<p>*Rumus tegangan pada Induktor*</p>
+	<br><br>
+	<p>3. Rangkaian Kapasitor</p>
+	<p>Sebuah kapasitor memiliki karakteristik yang dapat menyimpan energi dalam bentuk muatan listrik ketika dihubungkan dengan sumber tegangan bolak-balik maupun tegangan searah.
+Kapasitor yang dialiri arus bolak-balik akan timbul resistansi semu atau biasa disebut dengan reaktansi kapasitif. Besar nilai reaktansi kapasitif bergantung pada besarnya nilai kapasitansi kapasitor dan frekuensi sudut arus atau dapat dirumuskan sebagai:</p>
+   <img src="https://i.ibb.co.com/sJpFPVkC/Whats-App-Image-2026-01-07-at-20-36-27.jpg" width="300">
+   <br>
+   <img src="https://i.ibb.co.com/HL1PTKC4/Whats-App-Image-2026-01-07-at-20-36-27-1.jpg" width="300">
+   <p>*Rangkaian kapasitor pada arus bolak-balik*</p>
+    <br><br>
+   <img src="https://i.ibb.co.com/kgvmpnPL/Whats-App-Image-2026-01-07-at-20-36-28.jpg" width="300">
+   <br><br>
+   <p> *Grafik hubungan tegangan dan arus terhadap waktu pada kapasitor* </p>
+   <p>Berdasarkan grafik, terlihat bahwa arus pada kapasitor maksimum saat tegangan kapasitor bernilai nol, begitupun sebaliknya. Artinya, arus mencapai nilai maksimumnya seperempat periode lebih cepat daripada saat tegangan mencapai nilai maksimumnya.</p>
+   <br><br>
+   <img src="https://i.ibb.co.com/dJbQ0XmK/Whats-App-Image-2026-01-07-at-20-36-28-1.jpg" width="600">
+   <p>*Rumus tegangan pada Kapasitor*</p>
+   </div>
+
+    <div id="gelombang" class="materi">
+      <h3>Gelombang Elektromagnetik</h3>
+      <p> Gelombang Elektromagnetik (GEM) : Gelombang yang tidak memerlukan medium untuk merambat. <br> Gelombang Elektromagnetik (GEM) dibentuk oleh medan magnet dan medan listrik yang saling merambat tegak lurus.<br>
+	  SIFAT SIFAT GEM <br>
+* Dapat merambat dalam ruang hampa (tidak memerlukan medium untuk merambat).<br>
+*  Tidak bermuatan listrik.<br>
+*   Merupakan gelombang transversal (arah getarnya tegak lurus dengan arah perambatannya dimana getaran medan listrik tegak lurus terhadap medan magnet dan keduanya tegak lurus terhadap arah perambatannya.<br>
+*   Arah perambatannya tidak dibelokkan, baik pada medan listrik maupun pada medan magnet. <br>
+*   Memiliki sifat umum gelombang, yaitu dapat mengalami polarisasi (pengkutuban), refleksi (pemantulan), refraksi (pembiasan), interferensi (perpaduan), difraksi (pelenturan)..</p> 
+	<img src="https://i.ibb.co.com/LD58C6Z7/Whats-App-Image-2026-01-07-at-20-44-39.jpg" width="600">
+	<p>*Rumus Kecepatan Gelombang Elektromagnetik*</p>
+	<p>JENIS JENIS SPEKTRUM GEM <br>
+	1.    Gelombang Radio dan TV <br> 
+	2.    Gelombang Mikro (Radar) <br> 
+	3.    Inframerah <br> 
+	4.    Cahaya Tampak : <br>
+        a. Merah  
+		b. Jingga   
+		c. Kuning  
+		d. Hijau   
+		e. Biru  
+		f. Nila  
+		g. Ungu <br> 
+	5.    Sinar Ultraviolet (UV)<br> 
+	6.    Sinar X<br> 
+	7.   Sinar Gamma<br>
+	
+MANFAAT GEM <br>
+1. Gelombang Radio <br> - Digunakan pada radio dan TV sebagai alat untuk komunikasi<br>
+2. Gelombang Mikro (Radar)<br>- Gel. mikro contohnya yaitu oven microwave.<br>- Gel. radar digunakan untuk mendeteksi suatu objek, memandu pendaratan pesawat, mendeteksi kedalaman laut.<br>- Menganalisis struktur atomik dan molekul.<br>
+3. Inframerah<br>- Digunakan pada remote control / TV.<br>- Untuk mentrasfer data/energi yang tidak terlalu besar.<br>- Di bidang militer untuk melihat di tempat gelap<br>
+4. Cahaya Tampak<br>- Dapat dilihat oleh mata.<br>- Berdasarkan panjang gelombang terbesar ke terkecil: me, ji, ku, hi, bi, ni, u.<br>* Untuk sinar laser.<br>
+5. Sinar Ultraviolet (UV)<br>- Membantu proses fotosintesis pada tumbuhan.<br>- Memeriksa keaslian uang.<br>- Membantu pembentukan vitamin D pada tulang.<br>
+6. Sinar X (Sinar Rontgen)<br>- Mendeteksi penyakit organ dalam.<br>- Memeriksa barang-barang di bandara/Pelabuhan.<br>- Memerikasa struktur bahan atau kristal pada zat padat<br>
+7. Sinar Gamma<br>- Mensterilisasi peralatan medis (rumah sakit).<br>- Mendeteksi kebocoran pipa dan aliran fluida.<br>- Pembuatan varietas tanaman unggul tahan hama.<br>
+   </div>
+    <!-- === MENU SOAL === -->
+
+    <div id="menu-soal" class="materi">
+      <h3>Contoh Soal</h3>
+      <p>Pilih materi untuk melihat soal:</p>
+      <ul class="sublist">
+        <li onclick="showSection('soal-listrik')">Soal: Listrik Searah & Statis</li>
+        <li onclick="showSection('soal-ac')">Soal: Rangkaian AC</li>
+        <li onclick="showSection('soal-gelombang')">Soal: Gelombang EM</li>
+      </ul>
+    </div>
+
+    <!-- === SOAL PER MATERI === -->
+
+    <div id="soal-listrik" class="soal">
+      <h3>Soal: Listrik Searah & Statis</h3>
+     
+        <li>Soal 1:<br> <img src="https://i.ibb.co.com/4ngJY4Hm/Whats-App-Image-2026-01-11-at-21-01-09.jpg" width="600"> </li>
+		<li>  Pembahasan : <br>  <img src="https://i.ibb.co.com/QvYXvtHY/Cuplikan-layar-2026-01-17-194249.png" width="600"></li>
+        <li>Soal 2:<br> <img src="https://i.ibb.co.com/sdrNVjt8/Whats-App-Image-2026-01-11-at-21-01-24.jpg" width="600"></li>
+		<li> Pembahasan : <br> <img src="https://i.ibb.co.com/nqVfdCdR/Cuplikan-layar-2026-01-17-195121.png" width="300"> <br> <img src="https://i.ibb.co.com/Xrws1GKd/Cuplikan-layar-2026-01-17-195154.png" width="300"></li>
+		
+    </div>
+
+    <div id="soal-ac" class="soal">
+      <h3>Soal: Rangkaian AC</h3>
+	  
+  <li>Soal 1:<br> <img src="https://i.ibb.co.com/BJG9sqj/Whats-App-Image-2026-01-11-at-21-01-42.jpg" width="600"> </li>
+		<li>  Pembahasan : <br>  <img src="https://i.ibb.co.com/m5T4z1wN/Cuplikan-layar-2026-01-17-195857.png" width="600"></li>
+        <li>Soal 2:<br> <img src="https://i.ibb.co.com/SXYf9LJH/Whats-App-Image-2026-01-11-at-21-01-42-1.jpg" width="600"></li>
+		<li> Pembahasan : <br> <img src="https://i.ibb.co.com/6c77yQQx/Cuplikan-layar-2026-01-17-200416.png" width="600"> <br> 
+		<li>Soal 3:<br> <img src="https://i.ibb.co.com/4g3pHXnf/Whats-App-Image-2026-01-11-at-21-01-43.jpg" width="600"></li>
+		<li> Pembahasan : <br> <img src="https://i.ibb.co.com/0j3Q24c2/Cuplikan-layar-2026-01-17-200646.png" width="600"> <br> 
+		
+    </div>
+
+    <div id="soal-gelombang" class="soal">
+      <h3>Soal: Gelombang Elektromagnetik</h3>
+	  
+      <li>Soal 1:<br> <img src="https://i.ibb.co.com/dwNz7MLK/Cuplikan-layar-2026-01-17-201735.png" width="600"> </li>
+      <li>Soal 2:<br> <img src="https://i.ibb.co.com/FbHZRMFS/Cuplikan-layar-2026-01-17-201801.png" width="600"></li>
+    </div>
+
+  </main>
+
+  <footer>
+  </footer>
+
+  <script>
+    function showSection(id) {
+      const allSections = document.querySelectorAll('.materi, .soal');
+      allSections.forEach(sec => sec.style.display = 'none');
+
+      const target = document.getElementById(id);
+      if (target) {
+        target.style.display = 'block';
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
+
+</body>
+</html>
